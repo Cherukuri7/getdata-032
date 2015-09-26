@@ -1,13 +1,13 @@
 # Data Dictionary - tidy-data.txt
 
 The data set contains 89 variables. The first 3 variables (treatment, activity and subjectid) are factors and others are measurements.
-T
+
 
 |Variable         | Position |Values or Explantion  |
 | :-------------  |:---------| :-----|
-|treatment        | 1       |factor of two levels (TEST, TRAIN). Allows to analyze on test data set versus train data set |
+|treatment        | 1       |factor of two levels (TEST, TRAIN)|
 |activity         | 2       |factor of six levels (WALKING, WALKING_UPSTAIRS,WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) |
-|subjectid        | 3      |factor of 30 levels representing 30 people who participated in the experiment. They belong to TEST and TRAIN treatments |
+|subjectid        | 3      |factor of 30 levels representing 30 people who participated in the experiment |
 |tBodyAccmeanX, tBodyAccmeanY, tBodyAccmeanZ| 4-6|mean values of time domain body acceleration variables in X,Y, and Z axis |
 |tGravityAccmeanX, tGravityAccmeanY, tGravityAccmeanZ| 7-9|mean values of time domain gravity acceleration variables in X,Y, and Z axis |
 |tBodyAccJerkmeanX, tBodyAccJerkmeanY, tBodyAccJerkmeanZ| 10-12|mean values of time domain body jerk variables in X,Y, and Z axis |
