@@ -1,6 +1,6 @@
 getdata-032 Course Project on Tidy Data
 =========
-This repository (repo) contains step-by-step instructions to process experimental raw data from Samsung smart phones which can be download as zip file [link - 61MB](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). For more information on the experiment and the data set, please visit the [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+This repository (repo) contains step-by-step instructions to process experimental raw data from Samsung smart phones which can be download from the link ([as zip file - 61MB](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)). For more information on the experiment and the data set, please visit the [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 The repo contains the following two files:
 
