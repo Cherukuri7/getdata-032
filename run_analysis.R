@@ -13,11 +13,12 @@ activity_labels<-read.table("./UCI HAR Dataset/activity_labels.txt",header=FALSE
 # Set col names including activity labels and subject IDs
 # used gsub() and make.names() to clean up features' names and to comply with R naming rules
 
-test_data<-cbind(Treatment="Test",subject_test,y_test,x_test)
-train_data<-cbind(Treatment="Train",subject_train,y_train,x_train)
+test_data<-cbind(Treatment="TEST",subject_test,y_test,x_test)
+train_data<-cbind(Treatment="TRAIN",subject_train,y_train,x_train)
 master_data<-rbind(test_data,train_data)
 colnames(master_data)[1:564]<-c("treatment","subjectid","activity",make.names(features$V2,unique = TRUE))
 colnames(master_data)<-gsub("\\.","",colnames(master_data))
+master_data$subjectid<-as.factor(master_data$subjectid)
 
 # Part3: Create data_set by subsetting only means and std dev columns from master_data for further analysis
 library(dplyr)
@@ -38,3 +39,4 @@ write.table(tidy_data,file="tidy_data.txt",sep="|",row.names = FALSE)
 
 #Peers. Please use the following command to read the table and view contents
 df<-read.table("tidy_data.txt",sep="|",header = TRUE)
+

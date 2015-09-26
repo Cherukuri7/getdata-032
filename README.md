@@ -12,8 +12,8 @@ The R script contains all the required code to process the raw data files and ou
 
 1. Read all raw files into R
 2. Combine both 'test' and 'train' data sets into one master data set and cleanup variable names
-3. Subset the master data set so that only variables pertaining to "mean" or "std" are selected for further processing.
-4. Group and summarize variables by averaging each variable for each activity and subject. A tidy data set called 'tidy-data.txt' is written to working directory and uploaded for peer evaluation.
+3. Subset the master data set so that only variables pertaining to "mean" or "std" are selected (86 out of 561) for further processing.
+4. Group and summarize variables by averaging each variable for each activity and subject. A tidy data set called 'tidy-data.txt' is written to working directory to be uploaded for peer evaluation.
 
 ## Understanding CodeBook.md
 The code book explains each variable, their position, and values or explantion.
