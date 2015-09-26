@@ -1,15 +1,15 @@
 # Data Dictionary - tidy-data.txt
 
-The variables for this data set come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ and prefixes 't' and 'f' denote time and frequency domains. The acceleration signals were further separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ). Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). Also the magnitude of these three-dimensional signals were calculated  (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. All the raw signals were summarized for various statistical measures including mean and standard deviation.
+The variables for this data set come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ and prefixes 't' and 'f' denote time and frequency domains. The acceleration signals were further separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ). Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ).Also the magnitude of these three-dimensional signals were calculated  (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. All the raw signals were summarized for various statistical measures including mean and standard deviation.
 
-The tidy data set contains a sub set of variables belonging to mean and standard deviation of raw signals. The first 3 variables (treatment, activity and subjectid) are factors and the rest of averaged variables belonging to mean and standard deviation of raw signals.
+The tidy data set contains a sub set of variables belonging to mean and standard deviation of raw signals. The first 3 variables (treatment, activity and subjectid) are factors and the rest are averaged variables belonging to mean and standard deviation of raw signals.
 
-
+## tidy-data.txt
 |Variable         | Position |Values or Explantion  |
 | :-------------  |:---------| :-----|
-|treatment        | 1       |factor of two levels (TEST, TRAIN)|
-|activity         | 2       |factor of six levels (WALKING, WALKING_UPSTAIRS,WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) |
-|subjectid        | 3      |factor of 30 levels representing 30 people who participated in the experiment |
+|treatment        | 1       |factor of two treatment levels (TEST, TRAIN)|
+|activity         | 2       |factor of six activity levels (WALKING, WALKING_UPSTAIRS,WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) |
+|subjectid        | 3      |factor of thirty levels representing 30 people who participated in the experiment |
 |tBodyAccmeanX, tBodyAccmeanY, tBodyAccmeanZ| 4-6|mean values of time domain body acceleration variables in X,Y, and Z axis |
 |tGravityAccmeanX, tGravityAccmeanY, tGravityAccmeanZ| 7-9|mean values of time domain gravity acceleration variables in X,Y, and Z axis |
 |tBodyAccJerkmeanX, tBodyAccJerkmeanY, tBodyAccJerkmeanZ| 10-12|mean values of time domain body jerk variables in X,Y, and Z axis |
