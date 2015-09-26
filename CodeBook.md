@@ -1,6 +1,8 @@
 # Data Dictionary - tidy-data.txt
 
-The data set contains 89 variables. The first 3 variables (treatment, activity and subjectid) are factors and others are measurements.
+The variables for this data set come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ and prefixes 't' and 'f' denote time and frequency domains. The acceleration signals were further separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ). Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). Also the magnitude of these three-dimensional signals were calculated  (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. All the raw signals were summarized for various statistical measures including mean and standard deviation.
+
+The tidy data set contains a sub set of variables belonging to mean and standard deviation of raw signals. The first 3 variables (treatment, activity and subjectid) are factors and the rest of averaged variables belonging to mean and standard deviation of raw signals.
 
 
 |Variable         | Position |Values or Explantion  |
